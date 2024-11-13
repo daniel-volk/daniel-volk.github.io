@@ -1,0 +1,18 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/go:1",
+  "features": {
+    "ghcr.io/devcontainers/features/hugo:1": {
+      "extended": true
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "docsmsft.docs-markdown",
+        "tamasfe.even-better-toml",
+        "github.vscode-github-actions"
+      ]
+    }
+  },
+  "onCreateCommand": "./.devcontainer/onCreateCommand.sh"
+}
