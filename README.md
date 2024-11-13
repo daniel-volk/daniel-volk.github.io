@@ -1,6 +1,6 @@
-## Base template for static Website projects
+## Personal GitHub page
 
-[![CD (GitHub Pages)](https://github.com/daniel-volk/template_hugo/actions/workflows/cd_github_pages.yml/badge.svg?event=workflow_dispatch)](https://github.com/daniel-volk/template_hugo/actions/workflows/cd_github_pages.yml)
+[![CD (GitHub Pages)](https://github.com/daniel-volk/daniel-volk.github.io/actions/workflows/cd_github_pages.yml/badge.svg?event=workflow_dispatch)](https://github.com/daniel-volk/daniel-volk.github.io/actions/workflows/cd_github_pages.yml)
 
 ### Stack
 * Debian Bookworm (v12.LATEST) -> `lsb_release -a`
