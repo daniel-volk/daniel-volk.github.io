@@ -22,8 +22,8 @@ disableImageOptimization = false
 disableTextInHeader = false
 # backgroundImageWidth = 1200
 
-defaultBackgroundImage = "img/waves.svg" # used as default for background images 
-defaultFeaturedImage = "img/fireflies.svg" # used as default for featured images in all articles
+#defaultBackgroundImage = "img/waves.svg" # used as default for background images 
+#defaultFeaturedImage = "img/fireflies.svg" # used as default for featured images in all articles
 
 highlightCurrentMenuArea = false
 smartTOC = true
@@ -44,7 +44,7 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
 
 [homepage]
   layout = "profile" # valid options: page, profile, hero, card, background, custom
-  # homepageImage = "img/waves.svg" # used in: hero, and card
+  # homepageImage = "img/blowfish_banner.png" # used in: hero, and card
   showRecent = true # articles derived from sources defined by mainSections
   showRecentItems = 6
   showMoreLink = false
@@ -62,7 +62,7 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   showAuthor = true
   showAuthorBottom = false
   showHero = false
-  # heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
+  heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
   showBreadcrumbs = true
@@ -88,7 +88,7 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
 
 [list]
   showHero = false
-  # heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
+  heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
   showBreadcrumbs = true
@@ -109,7 +109,7 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
 [taxonomy]
   showTermCount = true
   showHero = false
-  # heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
+  heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = true
   showViews = false
   showLikes = false
@@ -118,7 +118,7 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
 
 [term]
   showHero = false
-  # heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
+  heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = true
   showViews = false
   showLikes = false

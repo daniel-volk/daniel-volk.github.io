@@ -1,1 +1,5 @@
-This is a *test*.
+---
+title: "Home"
+description: "Home page"
+---
+This is the home page

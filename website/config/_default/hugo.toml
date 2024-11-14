@@ -43,24 +43,24 @@ enableEmoji = true
   toLower = false
 
     [[related.indices]]
-        name = "tags"
-        weight = 100
-
-    [[related.indices]]
-        name = "categories"
-        weight = 100
-
-    [[related.indices]]
         name = "series"
-        weight = 50
+        weight = 100
+
+    [[related.indices]]
+        name = "tags"
+        weight = 75
 
     [[related.indices]]
         name = "authors"
-        weight = 20
+        weight = 25
 
     [[related.indices]]
         name = "date"
-        weight = 10
+        weight = 25
+
+    [[related.indices]]
+        name = "categories"
+        weight = 0
 
     [[related.indices]]
       applyFilter = false
